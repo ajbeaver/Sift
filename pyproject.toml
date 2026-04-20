@@ -8,6 +8,10 @@ version = "0.1.0"
 description = "Terminal-native read-only file workspace for browsing, inspecting, previewing, and opening files."
 readme = "README.md"
 requires-python = ">=3.12"
+authors = [
+  { name = "ajbeaver" },
+]
+license = { file = "LICENSE" }
 dependencies = [
   "textual>=0.58,<1.0",
 ]
