@@ -45,7 +45,7 @@ If you want `sift` available anywhere on your machine as a single command:
 ```bash
 brew install pipx
 pipx ensurepath
-git clone <your-repo-url> sift
+git clone https://github.com/ajbeaver/Sift.git sift
 cd sift
 pipx install .
 ```
@@ -63,7 +63,7 @@ sift --help
 If you want to install `sift` locally in a virtual environment on this machine:
 
 ```bash
-git clone <your-repo-url> sift
+git clone https://github.com/ajbeaver/Sift.git sift
 cd sift
 python3 -m venv .venv
 source .venv/bin/activate
