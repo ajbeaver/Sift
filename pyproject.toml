@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sift"
+version = "0.1.0"
+description = "Terminal-native read-only file workspace for browsing, inspecting, previewing, and opening files."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "textual>=0.58,<1.0",
+]
+
+[project.scripts]
+sift = "sift.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["sift*"]
