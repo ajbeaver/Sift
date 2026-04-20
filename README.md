@@ -179,4 +179,6 @@ Advanced features like editing, plugins, config systems, and deep search are int
 
 ## Demo
 
-Demo video coming soon.
+Watch the demo on YouTube:
+
+https://www.youtube.com/watch?v=e6oE2pJe7pQ
